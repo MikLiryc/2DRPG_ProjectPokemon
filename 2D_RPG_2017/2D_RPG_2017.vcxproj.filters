@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameFramework">
+      <UniqueIdentifier>{cccde409-42c4-4245-8615-71c432ee4f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\매니져">
+      <UniqueIdentifier>{db6058e2-83f6-4c0d-a233-34e042a4969a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\유틸">
+      <UniqueIdentifier>{82ed7401-0ae2-484e-9601-12b179f70e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{9c69a583-1983-4b33-912a-e558098cf29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameNode">
+      <UniqueIdentifier>{8c4b8dd0-80cb-4dc5-bfed-01e6b65dba74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{68b7cb8f-01ee-485e-8a9d-54f0e06f6040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\이미지">
+      <UniqueIdentifier>{b6fcfafa-7e3e-47a2-879c-3a08d1a5cd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\세이브 매니저">
+      <UniqueIdentifier>{1ed2492e-7102-4cfa-9234-55cde2d9d040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\씬매니저">
+      <UniqueIdentifier>{6db1d891-5ba9-4848-aa39-5bf731bffbb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\이미지 매니저">
+      <UniqueIdentifier>{a278a21b-15ed-4295-9afb-480832fc2b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="인게임 씬">
+      <UniqueIdentifier>{ea3984e0-74ce-40b5-9e0e-ddd2f1b6fb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="인트로 씬">
+      <UniqueIdentifier>{550f0fb9-18c7-45a0-8f8c-356ee2c98a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="전투 씬">
+      <UniqueIdentifier>{4599f4b9-7d6d-4c50-a8c0-83f8fd0f78b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="캐릭터 생성">
+      <UniqueIdentifier>{ea50d2dd-b76b-45d9-ac49-d29410bedd0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="플레이어">
+      <UniqueIdentifier>{8be3e070-2d5c-4398-8aeb-7dfaabc7684d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="포켓몬">
+      <UniqueIdentifier>{0a8ce0c9-7250-4827-bc32-7edfbbba286b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>MainGame\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>GameFramework\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>GameFramework\씬매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework\이미지 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>GameFramework\세이브 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="saveManager.cpp">
+      <Filter>GameFramework\세이브 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>GameFramework\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>GameFramework\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="inGameScene.cpp">
+      <Filter>인게임 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="introScene.cpp">
+      <Filter>인트로 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="battleScene.cpp">
+      <Filter>전투 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="characterCreationScene.cpp">
+      <Filter>캐릭터 생성</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>포켓몬</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameNode.h">
+      <Filter>MainGame\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="image.h">
+      <Filter>GameFramework\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>GameFramework\씬매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework\이미지 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>GameFramework\세이브 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="saveManager.h">
+      <Filter>GameFramework\세이브 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="decleration.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="inGameScene.h">
+      <Filter>인게임 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="introScene.h">
+      <Filter>인트로 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="battleScene.h">
+      <Filter>전투 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="characterCreationScene.h">
+      <Filter>캐릭터 생성</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokemon.h">
+      <Filter>포켓몬</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
